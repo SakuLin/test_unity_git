@@ -16,7 +16,7 @@ public class BallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0f, 0f, -1 * speed * Time.deltaTime);
+        transform.position += new Vector3(0f, 0f, -1*speed*Time.deltaTime);
         if (transform.position.z < -13.0f)
         {
             //Debug.Log("Game Over");
